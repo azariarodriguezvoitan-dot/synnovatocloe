@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SINNOVA | Acceuil</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Italianno&family=Outfit:wght@100..900&family=Passions+Conflict&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/fontawesome-free-7.1.0-web/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              fontFamily: {
+                bodoni: ['Bodoni Moda', 'serif'],
+                outfit: ['Outfit', 'sans-serif'],
+                passions:['Passions Conflict', 'cursive'],
+                italianno: ['Italianno', 'cursive']
+              },
+              colors: {
+                primary: "#C2185B",
+                secondary: "#F8BBD0",
+                tertiary: "#1A237E",
+                quarty: "#FAFAFA",
+                cinqy: "#ffffff23"
+              },
+              spacing: {
+                '10': "10px",
+                '20': "20px",
+                '30': "30px",
+                '40': "40px",
+                '50': "50px",
+                '70': "70px",
+                '100': "100px"
+              }
+            }
+          }
+        }
+        lucide.createIcons()
+    </script>
+</head>
+<body style="font-family: 'Courier New', Courier, monospace;" onload="f()">
+    <section class="hidden md:block md:px-50 md:py-20 bg-gray-300 fixed w-full">
+        <div class="">
+            <nav class="flex justify-between items-center">
+                <h1 class="text-3xl font-bold text-center text-quarty"><span class="font-bodoni"> SINNOVA</span> <br> <span class="text-2xl text-primary">TOCLOE</span></h1>
+                <ul class="flex gap-40 shadow-2lg px-100 py-3 rounded-full bg-cinqy">
+                    <li class="">
+                        <a href="index.html" class="flex gap-2 items-center hover:border-b-2 duration-600 hover:border-primary hover:text-primary pb-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house-roof-icon lucide-house-roof"><path d="M2.6 10.4a2.12 2.12 0 1 0 3.02 2.98L12 7l6.4 6.4a2.12 2.12 0 1 0 2.979-3.021L13.7 2.7a2.4 2.4 0 0 0-3.404.004Z"/><path d="M20 14v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-6"/><path d="M14 22v-6a2 2 0 0 0-4 0v6"/></svg>
+                            Acceuil</a>
+                    </li>
+                    <li class="">
+                        <a href="Apropos.html" class="flex gap-2 items-center hover:border-b-2 duration-600 hover:border-primary hover:text-primary pb-2" id="a">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-user-icon lucide-file-user"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"/><path d="M14 2v5a1 1 0 0 0 1 1h5"/><path d="M16 22a4 4 0 0 0-8 0"/><circle cx="12" cy="15" r="3"/></svg>
+                            A propos</a>
+                    </li>
+                    <li class="">
+                        <a href="univers.html" class="flex gap-2 items-center hover:border-b-2 duration-600 hover:border-primary hover:text-primary pb-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe-icon lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+                            Univers</a>
+                    </li>
+                    <li class="">
+                        <a href="portfolio.html" class="flex gap-2 items-center hover:border-b-2 duration-600 hover:border-primary hover:text-primary pb-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chart-bar-increasing-icon lucide-chart-bar-increasing"><path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="M7 11h8"/><path d="M7 16h12"/><path d="M7 6h3"/></svg>
+                            Portfolio</a>
+                    </li>
+                    <li class="">
+                        <a href="contact.html" class="flex gap-2 items-center hover:border-b-2 duration-600 hover:border-primary hover:text-primary pb-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-call-icon lucide-phone-call"><path d="M13 2a9 9 0 0 1 9 9"/><path d="M13 6a5 5 0 0 1 5 5"/><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg>
+                            Contact</a>
+                    </li>
+                </ul>
+                <ul class="flex items-center gap-20">
+                    <li>
+                        <select name="" id="" class="p-2 text-black">
+                            <option value="FR">FR 🇨🇵</option>
+                            <option value="ENG">ENG 🇱🇷</option>
+                        </select>
+                    </li>
+                    <li>
+                        <button class="bg-primary p-2 text-quarty rounded-full shadow-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun-medium-icon lucide-sun-medium"><circle cx="12" cy="12" r="4"/><path d="M12 3v1"/><path d="M12 20v1"/><path d="M3 12h1"/><path d="M20 12h1"/><path d="m18.364 5.636-.707.707"/><path d="m6.343 17.657-.707.707"/><path d="m5.636 5.636.707.707"/><path d="m17.657 17.657.707.707"/></svg>
+                        </button>
+                        <button class="">
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <script>
+        function f(){
+            document.getElementById("a").style.color = "#C2185B";
+            document.getElementById("a").style.borderBottom = "#C2185B 2px solid";
+            document.getElementById("a").style.paddingInline = "2px";
+        }
+    </script>
+</body>
+</html>
