@@ -6,7 +6,8 @@
 
     <meta name="description" content="Découvrez le site officiel de Synnova Belvine TOCLOE : animatrice passionnée, actrice engagée, communicatrice créative et entrepreneuse sociale au Bénin. Parcours, projets, médias, engagements et collaborations." />
 
-    <title>SINNOVA | Acceuil</title>
+   
+    <title>SINNOVA | Portfolio & Galerie</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,7 +48,7 @@
         lucide.createIcons()
     </script>
 </head>
-<body style="font-family: 'Courier New', Courier, monospace;" class="overflow-x-hidden" onload="f()">
+<body style="font-family: 'Courier New', Courier, monospace;" class="overflow-x-hidden scroll-smooth" onload="f()">
     <section class="md:px-50 md:py-20 bg-[#00000091] fixed w-full text-quarty z-50">
                 <div class="">
                     <nav class="flex justify-between items-center">
@@ -59,7 +60,7 @@
                                     Acceuil</a>
                             </li>
                             <li class="">
-                                <a href="Apropos.html" class="flex gap-2 items-center hover:border-b-2 duration-600 hover:border-primary hover:text-primary pb-2" id="a">
+                                <a href="Apropos.html" class="flex gap-2 items-center hover:border-b-2 duration-600 hover:border-primary hover:text-primary pb-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-user-icon lucide-file-user"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"/><path d="M14 2v5a1 1 0 0 0 1 1h5"/><path d="M16 22a4 4 0 0 0-8 0"/><circle cx="12" cy="15" r="3"/></svg>
                                     A propos</a>
                             </li>
@@ -69,7 +70,7 @@
                                     Univers</a>
                             </li>
                             <li class="">
-                                <a href="portfolio.html" class="flex gap-2 items-center hover:border-b-2 duration-600 hover:border-primary hover:text-primary pb-2">
+                                <a href="portfolio.html" class="flex gap-2 items-center hover:border-b-2 duration-600 hover:border-primary hover:text-primary pb-2" id="a">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chart-bar-increasing-icon lucide-chart-bar-increasing"><path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="M7 11h8"/><path d="M7 16h12"/><path d="M7 6h3"/></svg>
                                     Portfolio</a>
                             </li>
@@ -117,7 +118,7 @@
                                 </a>
                             </li>
                             <li class="">
-                                <a href="portfolio.html" class="">
+                                <a href="portfolio.html" class="" id="a">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chart-bar-increasing-icon lucide-chart-bar-increasing"><path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="M7 11h8"/><path d="M7 16h12"/><path d="M7 6h3"/></svg>
                                 </a>
                             </li>
@@ -140,20 +141,21 @@
                 <button class="bg-primary px-8 py-2 text-quarty rounded-full">Tous</button>
             </div>
             <div class="p-3">
-                <button class="px-8 py-2 border-2 border-primary rounded-full text-primary hover:bg-primary hover:text-quarty duration-800">Cinéma</button>
+                <a href="#cinema" class="cursor-pointer px-8 py-2 border-2 border-primary rounded-full text-primary hover:bg-primary hover:text-quarty duration-800">Cinéma</a href="#">
             </div>
             <div class="p-3">
-                <button class="px-8 py-2 border-2 border-primary rounded-full text-primary hover:bg-primary hover:text-quarty duration-800">Évènements</button>
+                <a href="#evenement" class="cursor-pointer px-8 py-2 border-2 border-primary rounded-full text-primary hover:bg-primary hover:text-quarty duration-800">Évènements</a href="#">
             </div>
             <div class="p-3">
-                <button class="px-8 py-2 border-2 border-primary rounded-full text-primary hover:bg-primary hover:text-quarty duration-800">Communication</button>
+                <a href="#communication" class="cursor-pointer px-8 py-2 border-2 border-primary rounded-full text-primary hover:bg-primary hover:text-quarty duration-800">Communication</a href="#">
             </div>
             <div class="p-3">
-                <button class="px-8 py-2 border-2 border-primary rounded-full text-primary hover:bg-primary hover:text-quarty duration-800">Entrepreneuriat</button>
+                <a href="#" class="cursor-pointer px-8 py-2 border-2 border-primary rounded-full text-primary hover:bg-primary hover:text-quarty duration-800">Entrepreneuriat</a href="#">
             </div>
         </div>
     </section>
     <section class="px-10 md:px-100">
+        <span id="cinema"></span>
         <div class="block md:flex justify-around gap-20 pt-50 pb-10">
             <div class="p-3">
                 <div class="relative rounded-[30px] overflow-hidden">
@@ -192,6 +194,7 @@
                 </div>
             </div>
         </div>
+        <span id="evenement"></span>
         <div class="block md:flex justify-around gap-20 pb-10">
             <div class="p-3">
                 <div class="relative rounded-[30px] overflow-hidden">
@@ -230,6 +233,7 @@
                 </div>
             </div>
         </div>
+        <span id="communication"></span>
         <div class="block md:flex justify-around gap-20">
             <div class="p-3">
                 <div class="relative rounded-[30px] overflow-hidden">
