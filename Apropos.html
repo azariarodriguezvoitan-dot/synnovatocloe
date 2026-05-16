@@ -47,15 +47,20 @@
         }
         lucide.createIcons()
     </script>
+    <style>
+        c {
+            color: #000000c5;
+        }
+    </style>
 </head>
 <body style="font-family: 'Courier New', Courier, monospace;" class="overflow-x-hidden" onload="f()">
-    <header class="bg-[url(1.jpeg)] bg-cover w-full text-quarty">
-        <section class="bg-gradient-to-t from-[#1a227ed0] via-[#1a227ed0] to-transparent">
-            <section class="hidden md:block md:px-50 md:py-20 bg-blur-md fixed w-full">
+    <header class="bg-[url(1.webp)] bg-cover w-full text-quarty">
+        <section class="bg-[#00000091]">
+            <section class="hidden md:block md:px-50 md:py-20 bg-[#00000091] fixed w-full z-50">
                 <div class="">
                     <nav class="flex justify-between items-center">
                         <h1 class="text-3xl font-bold text-center text-quarty"><span class="font-bodoni"> SINNOVA</span> <br> <span class="text-2xl text-primary">TOCLOE</span></h1>
-                        <ul class="flex gap-40 shadow-2lg px-100 py-3 rounded-full bg-cinqy">
+                        <ul class="flex gap-40 shadow-2xl border-2 border-gray-900 px-100 py-3 rounded-full bg-[#000000c5]">
                             <li class="">
                                 <a href="index.html" class="flex gap-2 items-center hover:border-b-2 duration-600 hover:border-primary hover:text-primary pb-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house-roof-icon lucide-house-roof"><path d="M2.6 10.4a2.12 2.12 0 1 0 3.02 2.98L12 7l6.4 6.4a2.12 2.12 0 1 0 2.979-3.021L13.7 2.7a2.4 2.4 0 0 0-3.404.004Z"/><path d="M20 14v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-6"/><path d="M14 22v-6a2 2 0 0 0-4 0v6"/></svg>
@@ -100,10 +105,43 @@
                     </nav>
                 </div>
             </section>
+            <section class="block md:hidden fixed bottom-4 left-0 w-full z-50 text-quarty">
+                <div class="">
+                    <nav class="flex justify-center">
+                        <ul class="flex gap-30 shadow-2xl border-2 border-gray-900 p-3 rounded-full bg-[#000000c5]">
+                            <li class="">
+                                <a href="index.html" class="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house-roof-icon lucide-house-roof"><path d="M2.6 10.4a2.12 2.12 0 1 0 3.02 2.98L12 7l6.4 6.4a2.12 2.12 0 1 0 2.979-3.021L13.7 2.7a2.4 2.4 0 0 0-3.404.004Z"/><path d="M20 14v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-6"/><path d="M14 22v-6a2 2 0 0 0-4 0v6"/></svg>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="Apropos.html" class="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-user-icon lucide-file-user"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"/><path d="M14 2v5a1 1 0 0 0 1 1h5"/><path d="M16 22a4 4 0 0 0-8 0"/><circle cx="12" cy="15" r="3"/></svg>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="univers.html" class="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe-icon lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="portfolio.html" class="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chart-bar-increasing-icon lucide-chart-bar-increasing"><path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="M7 11h8"/><path d="M7 16h12"/><path d="M7 6h3"/></svg>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="contact.html" class="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-call-icon lucide-phone-call"><path d="M13 2a9 9 0 0 1 9 9"/><path d="M13 6a5 5 0 0 1 5 5"/><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
             <section class="px-10 md:px-100 pt-200">
                 <div class="text-center pt-200 pb-100">
                     <h1 class="text-6xl font-bodoni font-bold text-primary">A propos de moi</h1>
-                    <p class="mt-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quia ipsa necessitatibus <br> voluptatem quis. Soluta, sapiente pariatur saepe omnis voluptates modi necessitatibus <br> harum rerum? Est maiores culpa eum doloribus voluptates!</p>
+                    <p class="mt-5 text-center">Découvrer le parcours, les projets et l'univers de Synnova TOCLOE, <br> figure inspirante de la communication, du cinéma et <br> de l'entrepreneuriat au Bénin.</p>
                     <center>
                         
                     </center>
@@ -116,7 +154,7 @@
             <div class="w-full bg-secondary p-5 rounded-md shadow-2xl border-l-4 border-primary">
                 <span class="font-bold text-primary">2023</span>
                 <h1 class="text-4xl md:text-6xl font-bodoni font-bold text-primary">Formation <span class="text-tertiary">&</span><br> Journalisme</h1>
-                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum veritatis, accusantium, molestiae ipsam ex in nobis quos laboriosam ab delectus optio aliquam rerum explicabo vitae at? Quisquam et laudantium quidem.</p>
+                <p class="mt-4">Formée en journalisme et communication des médias, Synnova TOCLOE développe une expertise dans la prise de parole, l'animation, la rédaction et la communication audiovisuelle.</p>
                 
             </div>
             <div class="w-full">
@@ -130,15 +168,14 @@
             <div class="w-full bg-secondary p-5 rounded-md shadow-2xl border-r-4 border-tertiary">
                 <span class="font-bold text-tertiary">2023</span>
                 <h1 class="text-4xl md:text-6xl font-bodoni font-bold text-primary">UeReport <span class="text-tertiary">&</span><br> Mairie des jeunes</h1>
-                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum veritatis, accusantium, molestiae ipsam ex in nobis quos laboriosam ab delectus optio aliquam rerum explicabo vitae at? Quisquam et laudantium quidem.</p>
-                <i class="font-bodoni text-3xl mt-5">"Je suis trop mignon comme devs."</i>
+                <p class="mt-4">Engagée dans les actions citoyennes et le leadership de la jeunesse, Synnova TOCLOE participe activement aux initiatives de la mairie des jeunes pour promouvoir l'engagement communitaire et le ddéveloppement de la jeunesse.</p>
             </div>
         </div>
         <div class="block md:flex gap-50 items-center pt-40 px-10 md:px-100">
             <div class="w-full bg-secondary p-5 rounded-md shadow-2xl border-l-4 border-primary">
                 <span class="font-bold text-primary">2023</span>
                 <h1 class="text-4xl md:text-6xl font-bodoni font-bold text-primary">Festival des Arts</h1>
-                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum veritatis, accusantium, molestiae ipsam ex in nobis quos laboriosam ab delectus optio aliquam rerum explicabo vitae at? Quisquam et laudantium quidem.</p>
+                <p class="mt-4">Passionnée par la culture et l'expression artistique, Synnova TOCLOE contribue à la valorisation des talents à travers sa participation aux festivals et évènements dédiés aux arts et à la créativité.</p>
                 
             </div>
             <div class="w-full">
@@ -152,20 +189,20 @@
             <div class="w-full bg-secondary p-5 rounded-md shadow-2xl border-r-4 border-tertiary">
                 <span class="font-bold text-tertiary">2023</span>
                 <h1 class="text-4xl md:text-6xl font-bodoni font-bold text-primary">Emballages Bio</h1>
-                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum veritatis, accusantium, molestiae ipsam ex in nobis quos laboriosam ab delectus optio aliquam rerum explicabo vitae at? Quisquam et laudantium quidem.</p>
+                <p class="mt-4">Entrepreneuse innovante, Synnova TOCLOE s'intèresse aux solutions d'emballages et bio afin de promouvoir une onsommation plus responsable et respectueuse de l'environnement.</p>
             </div>
         </div>
     </section>
     <section class="bg-primary mt-50">
         <div class="px-10 md:px-100 text-quarty py-70">
             <h2 class="text-3xl md:text-5xl font-bodoni font-bold text-center"><span>~~</span> Valeurs fondamentales</h2>
-            <div class="block md:flex justify-between gap-30 mt-50">
+            <div class="block md:flex justify-between items-center mt-50">
                 <div class="p-4">
                     <div class="bg-tertiary p-4 rounded-md shadow-2xl">
                         <div class="">
                             <span class="mb-3 p-3 text-3xl fas fa-lightbulb"></span>
                             <h3 class="text-3xl font-bodoni font-bold">Créativité</h3>
-                            <p class="mt-5">Lorem ipsum dolor sit, amet consectetur adipisidae unde, animi quae, eum incidunt, ullam non doloribus cum excepturi.</p>
+                            <p class="mt-5">Synnova TOCLOE transforme chaque idée en une expérience unique grâce à une créativité innovante au service des médias, de la communication et de l'entrepreneuriat.</p>
                         </div>
                     </div>
                 </div>
@@ -174,7 +211,7 @@
                         <div class="">
                             <span class="mb-3 p-3 text-3xl fas fa-handshake"></span>
                             <h3 class="text-3xl font-bodoni font-bold">Engagement</h3>
-                            <p class="mt-5">Lorem ipsum dolor sit, amet consectetur adipisidae unde, animi quae, eum incidunt, ullam non doloribus cum excepturi.</p>
+                            <p class="mt-5">Engagée pour la jeunesse, la culture et le développement personnel, Synnova TOCLOE met son énergie au service de projets à impact positif au Bénin et en Afrique.</p>
                         </div>
                     </div>
                 </div>
@@ -183,7 +220,7 @@
                         <div class="">
                             <span class="mb-3 p-3 text-3xl fas fa-gem"></span>
                             <h3 class="text-3xl font-bodoni font-bold">Authenticité</h3>
-                            <p class="mt-5">Lorem ipsum dolor sit, amet consectetur adipisidae unde, animi quae, eum incidunt, ullam non doloribus cum excepturi.</p>
+                            <p class="mt-5">À travers une communication sincère et inspirante, Synnova TOCLOE valorise l'authenticité, la proximité humaine et l'expression naturelle de soi.</p>
                         </div>
                     </div>
                 </div>
@@ -192,7 +229,7 @@
                         <div class="">
                             <span class="mb-3 p-3 text-3xl fas fa-scale-balanced"></span>
                             <h3 class="text-3xl font-bodoni font-bold">Respect</h3>
-                            <p class="mt-5">Lorem ipsum dolor sit, amet consectetur adipisidae unde, animi quae, eum incidunt, ullam non doloribus cum excepturi.</p>
+                            <p class="mt-5">Lee respect des personnes, des cultures et des valeurs humaines constitue le fondement des actions et collaborations portée par Synnova TOCLOE.</p>
                         </div>
                     </div>
                 </div>
